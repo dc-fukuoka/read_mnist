@@ -1,6 +1,7 @@
 read_mnist - read the MNIST training data by python.
 ===
 requirements: numpy, matplotlib  
+the data format is explained in http://yann.lecun.com/exdb/mnist/  
 how to use:  
 ~~~
 $ wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
