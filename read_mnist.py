@@ -38,8 +38,7 @@ def read_mnist():
 
     return {"labels":labels, "images":images}
 
-if __name__ == "__main__":
-
+def main():
     argv = sys.argv
     argc = len(argv)
     if argc == 1:
@@ -54,3 +53,6 @@ if __name__ == "__main__":
         
     print("answer: ", train_data[labels][img_no])
     draw_heatmap(train_data[images][img_no,:,:], 0.0, 1.0)
+    
+if __name__ == "__main__":
+    main()
